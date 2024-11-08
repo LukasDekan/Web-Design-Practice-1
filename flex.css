@@ -1,0 +1,58 @@
+@import url("https://fonts.googleapis.com/css2?family=Inknut+Antiqua:wght@300;400;500;600;700;800;900&family=Inria+Serif:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Italiana&family=Julius+Sans+One&family=Open+Sans:ital,wdth,wght@0,75..100,300..800;1,75..100,300..800&display=swap");
+
+.hero_container {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+
+    background-image: url('/img/hero_img.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.text-container {
+    font-family: 'Open Sans';
+    color: white;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self: center;
+    font-size: x-large;
+    font-family: 'Open Sans' 
+}
+
+.button{
+    display: flex;
+   
+}
+
+.headline1{
+    color:green;
+}
+
+.headline2{
+    color: skyblue;
+}
+
+.headline3{
+    color: maroon;
+}
+
+.card_create{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: center;
+
+    width: 20%;
+    padding:1rem;
+    background-color: ghostwhite;
+}
+
+.card{
+    
+}
