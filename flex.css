@@ -53,6 +53,16 @@
     background-color: ghostwhite;
 }
 
-.card{
-    
-}
+/* Tablet Styles*/
+@media screen and (max-width: 1024px){
+    .card_create,
+    .quarter{
+      width: calc(97% / 2);
+    }
+    .flex-container{
+      height: fit-content;
+    }
+  }
+  
+
+
