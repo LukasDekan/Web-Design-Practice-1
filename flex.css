@@ -1,5 +1,16 @@
 @import url("https://fonts.googleapis.com/css2?family=Inknut+Antiqua:wght@300;400;500;600;700;800;900&family=Inria+Serif:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Italiana&family=Julius+Sans+One&family=Open+Sans:ital,wdth,wght@0,75..100,300..800;1,75..100,300..800&display=swap");
 
+
+:root{
+    --transparent_background: rgba(171, 171, 171, 0.569);
+}
+
+*{
+    font-family: 'Open Sans' 
+} 
+
+
+
 .hero_container {
     display: flex;
     width: 100%;
@@ -12,9 +23,34 @@
     background-size: cover;
 }
 
+.hero_container2 {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+
+    background-image: url('/img/img12.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.hero_container3 {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+
+    background-image: url('/img/img13.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 
 .text-container {
-    font-family: 'Open Sans';
     color: white;
 
     display: flex;
@@ -22,7 +58,6 @@
     justify-content: center;
     align-self: center;
     font-size: x-large;
-    font-family: 'Open Sans' 
 }
 
 
@@ -31,7 +66,6 @@
 
     display: inline-block;
     padding: 1em;
-    border: solid 1px black;
     border-radius: 0.5em;
 }
 
@@ -59,6 +93,62 @@
     background-color: maroon;
 }
 
+.grey_background{
+    display:flex;
+    justify-self: flex-end;
+
+    color:gray;
+    background-color: whitesmoke;
+    border: solid 0.1em black;
+
+    /* border: solid 1px black; */
+}
+
+.grey_background2{
+    display:flex;
+    justify-self: center;
+
+    color:gray;
+    background-color: whitesmoke;
+    border: solid 0.1em black;
+
+    /* border: solid 1px black; */
+}
+
+.grey_background3{
+    display:flex;
+    justify-self: flex-start;
+
+    color:gray;
+    background-color: whitesmoke;
+    border: solid 0.1em black;
+
+    /* border: solid 1px black; */
+}
+
+.form_background{
+    display:flex;
+    justify-self: flex-start;
+
+    background-color:var(--transparent_background);
+
+    /* border: solid 1px black; */
+}
+
+.font_color{
+    color:grey;
+}
+
+.font_color_white{
+    color:white;
+}
+
+.title{
+    text-align: center;
+}
+
+
+
 .card_create{
     display: flex;
     flex-flow: row wrap;
@@ -72,6 +162,7 @@
 }
 
 
+
 .half{
     width:48%;
 }
@@ -80,6 +171,13 @@
     width: 32%;
 }
 
+.quarter{
+    width:23%
+}
+
+.whole{
+    width:88%;
+}
   
 
 
