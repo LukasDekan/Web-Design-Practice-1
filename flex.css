@@ -126,10 +126,35 @@
     /* border: solid 1px black; */
 }
 
+.send-button_background{
+    display:flex;
+    justify-self: center;
+    background-color: rgb(36, 36, 36);
+    border: solid 0.1em black;
+    /* border: solid 1px black; */
+}
+
 .form_background{
     background-color:var(--transparent_background);
 
     display: inline-block;
+    padding: 1em;
+}
+
+.form_card{
+    background-color:var(--transparent_background);
+    
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1em;
+}
+
+.message_card{
+    background-color:var(--transparent_background);
+    
+    display: flex;
+    align-self:flex-end;
+    flex-wrap: wrap;
     padding: 1em;
 }
 
@@ -145,12 +170,9 @@
     text-align: center;
 }
 
-.form_cards{
-    display:flex;
-    align-self: flex-start;
-    text-align:right;
+.black{
+    color:black;
 }
-
 
 .card_create{
     display: flex;
@@ -181,6 +203,15 @@
 .whole{
     width:88%;
 }
-  
+
+footer{
+    stroke: beige;
+    text-align: center;
+    border-bottom: 0.1rem solid grey;
+}
+
+.italic{
+    font-style: italic;
+}
 
 
