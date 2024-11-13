@@ -2,7 +2,7 @@
 
 
 :root{
-    --transparent_background: rgba(171, 171, 171, 0.569);
+    --transparent_background: rgba(255, 255, 255, 0.569);
 }
 
 *{
@@ -127,12 +127,10 @@
 }
 
 .form_background{
-    display:flex;
-    justify-self: flex-start;
-
     background-color:var(--transparent_background);
 
-    /* border: solid 1px black; */
+    display: inline-block;
+    padding: 1em;
 }
 
 .font_color{
@@ -147,6 +145,11 @@
     text-align: center;
 }
 
+.form_cards{
+    display:flex;
+    align-self: flex-start;
+    text-align:right;
+}
 
 
 .card_create{
