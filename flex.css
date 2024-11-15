@@ -13,7 +13,7 @@ nav{
     display: flex;
     justify-content: space-around;
     background-color: rgb(67, 67, 67);
-    padding: 2;
+    padding: 2px;
     width: 100%;
     height: 40px;
     position:fixed;
@@ -294,6 +294,21 @@ footer{
         width:88%;
     }
 }
+
+/* Button back-to-top */
+
+/* body {
+    display: grid;
+    grid-template-columns: auto auto;
+  } */
+
+.back-to-top{
+    content: url(img/img0.png);
+    position: sticky;
+    bottom: 20px;
+    left: 95%;
+}
+/* Button back-to-top   */
 
 
 
