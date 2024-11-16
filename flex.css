@@ -216,6 +216,16 @@ nav a:hover{
     background-color: ghostwhite;
 }
 
+.card_create2{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-content: center;
+
+    margin: 0 auto;
+    padding:1rem;
+    background-color: ghostwhite;
+}
 
 
 .half{
@@ -245,9 +255,9 @@ footer{
 }
 
 /* Smartphones */
-@media only screen and (min-width: 360px){
+@media only screen and (max-width: 480px){
     .whole{
-        width:fit-content;
+        width: fit-content;
     }
     .half{
         width:fit-content;
@@ -261,46 +271,24 @@ footer{
   }
 
 /* Tablets */
-@media only screen and (min-width: 768px){
+@media only screen and (max-width: 1024px){
     .whole{
-        width: fit-content;
+        width:fit-content;
     }
     .half{
-        width: fit-content;
+        width:fit-content;
     }
     .third{
-        width: fit-content;
+        width:fit-content;
     }
     .quarter{
-        width: fit-content; 
+        width:fit-content; 
     }
 }
 
-/* Desktop */
-@media only screen and (max-width: 1920px){
-    .half{
-        width:48%;
-    }
-    
-    .third{
-        width: 32%;
-    }
-    
-    .quarter{
-        width:23%
-    }
-    
-    .whole{
-        width:88%;
-    }
-}
 
 /* Button back-to-top */
 
-/* body {
-    display: grid;
-    grid-template-columns: auto auto;
-  } */
 
 .back-to-top{
     content: url(img/img0.png);
